@@ -1,5 +1,16 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
+<h3>Laravel Artisan comments</h3>
+<hr />
+1. php artisan make:migration create_articles_table --create=articles
+2. php artisan make:seeder AticlesTableSeeder
+3. php artisan make:factory ArticleFactory
+4. php artisan make:model Article
+5. php artisan migrate
+6. 3. php artisan db:seed
+7. php artisan make:controller Article --resource
+8. php artisan make:resource Article
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
